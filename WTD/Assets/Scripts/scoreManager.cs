@@ -15,13 +15,6 @@ public class scoreManager : MonoBehaviour
 
     public bool scoreIncreases;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (scoreIncreases)

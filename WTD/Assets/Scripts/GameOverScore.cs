@@ -17,7 +17,6 @@ public class GameOverScore : MonoBehaviour
     public bool scoreIncreases;
 
     private scoreManager GOmanager;
-    // Start is called before the first frame update
     void Start()
     {
         GOmanager = FindObjectOfType<scoreManager>();
@@ -28,9 +27,4 @@ public class GameOverScore : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

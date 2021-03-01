@@ -8,7 +8,6 @@ public class PlayerMove : MonoBehaviour{
     public float runSpeed = 40f;
     float HorizMove = 0f;
     bool jump  = false;
-    // Update is called once per frame
     void Update()
     {
        HorizMove = Input.GetAxisRaw("Horizontal") * runSpeed;

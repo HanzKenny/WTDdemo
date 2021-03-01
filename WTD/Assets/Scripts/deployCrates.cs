@@ -22,9 +22,14 @@ public class deployCrates : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds (respawnTime);
+            yield return new WaitForSeconds(respawnTime);
             spawnCrate();
         }
-
     }
+
+   // if (respawnTime )
+   // {
+
+   // }
+
 }
