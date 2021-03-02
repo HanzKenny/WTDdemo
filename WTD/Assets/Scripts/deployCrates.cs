@@ -5,8 +5,9 @@ using UnityEngine;
 public class deployCrates : MonoBehaviour
 {
     public GameObject cratePrefab;
-    public float respawnTime = 1.0f;
+    public float respawnTime = 3.0f;
     private Vector2 screenBnds;
+    
     void Start()
     {
         screenBnds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
@@ -27,9 +28,5 @@ public class deployCrates : MonoBehaviour
         }
     }
 
-   // if (respawnTime )
-   // {
-
-   // }
 
 }
