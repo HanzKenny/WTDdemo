@@ -14,15 +14,12 @@ public class GameOverScore : MonoBehaviour
 
     public float PointsPerSec;
 
-    public bool scoreIncreases;
-
     private scoreManager GOmanager;
     void Start()
     {
         GOmanager = FindObjectOfType<scoreManager>();
         if (PlayerPrefs.HasKey("BestScore")) 
         {
-            
             go_Bestscoretxt.text = "SCORE: " + Mathf.Round(PlayerPrefs.GetFloat("BestScore") * 100f) / 100f;
         }
     }
